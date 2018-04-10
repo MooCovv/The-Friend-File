@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Friend File", "The Friend File\The Friend File.csproj", "{CC0DC135-49C7-4B9A-8967-2AC853E053BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC0DC135-49C7-4B9A-8967-2AC853E053BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0DC135-49C7-4B9A-8967-2AC853E053BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0DC135-49C7-4B9A-8967-2AC853E053BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0DC135-49C7-4B9A-8967-2AC853E053BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2689D82B-7275-4A69-82FB-13CFC813BA37}
+	EndGlobalSection
+EndGlobal
