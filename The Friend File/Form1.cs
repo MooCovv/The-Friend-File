@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace The_Friend_File
 {
@@ -15,6 +16,31 @@ namespace The_Friend_File
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void writeNameButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                StreamWriter outputFile;
+                outputFile = File.AppendText(@"C:\Users\philip.robinson\Documents\Friend.txt");
+                outputFile.WriteLine(nameTextBox.Text);
+                outputFile.Close();
+
+                MessageBox.Show("The file has been written.");
+
+                nameTextBox.Text = "";
+                nameTextBox.Focus();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
